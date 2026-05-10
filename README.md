@@ -1,20 +1,20 @@
-# Estudos DevOps 🚀
+# DevOps Studies 🚀
 
-Projeto criado durante meus estudos de DevOps e Cloud Computing.
+This repository was created during my DevOps and Cloud Computing learning journey.
 
-## Tecnologias usadas
+## Technologies Used
 - AWS EC2
 - Linux
 - Nginx
 - Git
 - GitHub
 
-## O que aprendi
-- Conexão SSH
-- Comandos Linux
-- Hospedagem web com Nginx
-- Controle de versão com Git
-- Push para GitHub
+## What I Learned
+- SSH remote connection
+- Basic Linux commands
+- Web hosting with Nginx
+- Version control using Git
+- GitHub workflow
 
-## Autor
+## Author
 Matheus Ferreira
