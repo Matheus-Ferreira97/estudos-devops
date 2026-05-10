@@ -1,4 +1,4 @@
-name: Docker CI
+name: Deploy Application
 
 on:
   push:
@@ -6,12 +6,26 @@ on:
       - main
 
 jobs:
-  docker:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - name: Deploy on EC2 via SSH
+        uses: appleboy/ssh-action@v1.0.3
 
-      - name: Build Docker image
-        run: docker build -t my-website .
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+
+          script: |
+            cd ~/estudos-devops
+
+            echo "Stopping containers..."
+            sudo docker compose down
+
+            echo "Pulling latest code..."
+            git pull
+
+            echo "Rebuilding and starting..."
+            sudo docker compose up -d --build
