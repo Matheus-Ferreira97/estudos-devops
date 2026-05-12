@@ -1,2 +1,0 @@
-Estou aprendendo Linux e Devops
-Meu primeiro servidor Linux na AWS
