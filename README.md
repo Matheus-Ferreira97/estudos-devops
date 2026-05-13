@@ -38,7 +38,7 @@ Nginx Reverse Proxy
 Docker Container
    ↓
 Static Website
-
+![Architecture Diagram](./screenshots/architecture.png.png)
 ---
 
 # ⚙️ Technologies Used
