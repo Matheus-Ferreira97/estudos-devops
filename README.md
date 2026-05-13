@@ -81,5 +81,9 @@ Every push to the main branch automatically:
 
 # 🐳 Run Locally
 
+# 📷 Screenshots
 
+## Application Preview
+
+![Application Screenshot](./screenshots/home.png.png)
 
