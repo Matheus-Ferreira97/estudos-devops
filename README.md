@@ -1,5 +1,10 @@
 # DevOps Cloud Project 🚀
 
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![Docker](https://img.shields.io/badge/Docker-Container-blue)
+![Nginx](https://img.shields.io/badge/Nginx-ReverseProxy-green)
+![CI/CD](https://img.shields.io/badge/CI/CD-GitHubActions-black)
+![HTTPS](https://img.shields.io/badge/HTTPS-Let'sEncrypt-red)
 Production-style DevOps project deployed on AWS using Docker, Nginx, GitHub Actions and HTTPS.
 
 ## 🌐 Live Application
@@ -76,5 +81,5 @@ Every push to the main branch automatically:
 
 # 🐳 Run Locally
 
-```bash
-docker compose up -d --build
+
+
